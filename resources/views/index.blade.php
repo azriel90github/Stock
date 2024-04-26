@@ -1,0 +1,1 @@
+<h1>Página Inicial do Sistema de Stock</h1>
