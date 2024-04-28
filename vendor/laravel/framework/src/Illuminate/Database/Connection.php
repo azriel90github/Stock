@@ -6,6 +6,9 @@ use Carbon\CarbonInterval;
 use Closure;
 use DateTimeInterface;
 use Exception;
+
+/*Use Illuminate\Database\QueryException;*/
+ 
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Events\QueryExecuted;
 use Illuminate\Database\Events\StatementPrepared;

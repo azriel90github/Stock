@@ -1,5 +1,7 @@
 <?php
 
+/*Declaração adicionada*/
+use Illuminate\Database\QueryException; 
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
