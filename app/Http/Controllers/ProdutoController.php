@@ -7,21 +7,14 @@ use Illuminate\Http\Request;
 
 class ProdutoController extends Controller
 {
-    public function index() {
+    public function listagem() {
 
-        $html= '<h1>Listagem de produtos com Laravel</h1>';
 
-        $html .= '<ul>';
 
         $produtos = DB::select('select * from produtos');
 
-        foreach ($produtos as $p) {
-            $html .= '<li> Nome: '. $p->prod_nome .', Descrição: '. $p->prod_descricao .'</li>';
-        }
-
-        $html .= '</ul>';
-
-        return $html;
+        return view('listagem')->with('produtos', $produtos);
+        ;
             
     }
 }

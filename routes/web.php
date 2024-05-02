@@ -8,7 +8,7 @@ Route::get('/', function () {
     return view('index');
 });
   
-Route::get('/produtos', [ProdutoController::class , 'index' ]);
+Route::get('/produtos', [ProdutoController::class , 'listagem' ]);
 
 
 
