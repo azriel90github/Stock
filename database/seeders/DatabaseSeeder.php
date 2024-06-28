@@ -39,7 +39,7 @@ class ProdutoTableSeeder extends Seeder
                 'prod_quantidade' => 2,
             ],
             [
-                'prod_nome' => 'Fogão',
+                'prod_nome' => 'Fogão',1
                 'prod_valor' => 950.00,
                 'prod_descricao' => 'Painel automático e forno elétrico',
                 'prod_quantidade' => 5,
